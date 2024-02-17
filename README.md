@@ -5,7 +5,7 @@ developed by [INRIA LEAR and TEXMEX groups](http://corpus-texmex.irisa.fr).
 
 [![Version](https://img.shields.io/github/v/tag/kshard/fvecs?label=version)](https://github.com/kshard/fvecs/releases)
 [![Documentation](https://pkg.go.dev/badge/github.com/kshard/fvecs)](https://pkg.go.dev/github.com/kshard/fvecs)
-[![Build Status](https://github.com/kshard/fvecs/workflows/test/badge.svg)](https://github.com/kshard/fvecs/actions/)
+[![Build Status](https://github.com/kshard/fvecs/workflows/build/badge.svg)](https://github.com/kshard/fvecs/actions/)
 [![Git Hub](https://img.shields.io/github/last-commit/kshard/fvecs.svg)](https://github.com/kshard/fvecs)
 [![Coverage Status](https://coveralls.io/repos/github/kshard/fvecs/badge.svg?branch=main)](https://coveralls.io/github/kshard/fvecs?branch=main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kshard/fvecs)](https://goreportcard.com/report/github.com/kshard/fvecs)
