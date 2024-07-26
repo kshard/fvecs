@@ -59,7 +59,7 @@ func (d *Decoder[T]) Read() ([]T, error) {
 		d.b = make([]byte, l)
 	}
 
-	_, err = d.r.Read(d.b)
+	_, err = io.ReadFull(d.r, d.b)
 	if err != nil {
 		return nil, err
 	}
@@ -70,7 +70,7 @@ func (d *Decoder[T]) Read() ([]T, error) {
 // read vector size
 func (d *Decoder[T]) readSize() (int, error) {
 	ps := d.d[:]
-	_, err := d.r.Read(ps)
+	_, err := io.ReadFull(d.r, ps)
 	return int(d.d[0]) | int(d.d[1])<<8 | int(d.d[2])<<16 | int(d.d[3])<<24, err
 }
 
